@@ -1,5 +1,6 @@
 a, b, j, c = 1, 1, 2, 0
 n = int(input("please enter a number : "))
+print("------")
 print("1 . 1")
 print("2 . 1")
 for i in range (1, n) :
@@ -11,3 +12,4 @@ for i in range (1, n) :
         print(j, ".", c)
         a = b
         b = c
+print("------")
